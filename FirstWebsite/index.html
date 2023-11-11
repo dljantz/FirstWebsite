@@ -6,8 +6,23 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>David's first webpage</title>
         <style>
+            header {
+                background: red;
+                padding: 0px;
+                margin: 10px;
+
+            }
+            section {
+                background: green;
+            }
+            footer {
+                background:rgb(4, 95, 94)
+            }
+
             body {
-                background:black;
+                margin: 0px;
+                padding: 0px;
+                background:blueviolet;
                 font-family: helvetica Neue, Helvetica, Arial;
                 color: white;
             }
@@ -19,22 +34,39 @@
                 color: rgb(4, 95, 94);
                 opacity: 0.5;
             }
-            button {
-                background:gray;
-                border: none;
-                color: white;
-                border-radius: 15px;
+            div {
+                display:inline
             }
+
         </style>
     </head>
     <body>
-        <h1>Hello world!</h1>
-        <h2>This is a subtitle</h2>
-        <p>Hi, this is a <em><strong>strong</strong></em> paragraph</p>
-        <button>I'm a button</button>
-        <ul>
-            <li>This is a bullet point.</li>
-        </ul>
-        <p><br>hello</p>
+        <header>
+            <h1>Hello world!</h1>
+            <h2>This is a subtitle</h2>
+        </header>
+        <section>
+            <p>Hi, this is a <em><strong>strong</strong></em> paragraph</p>
+        </section>
+        <section>
+            <ul>
+                <li>This is a bullet point.</li>
+            </ul>
+        </section>
+        <section>
+            <button>I'm a button</button>
+            <div>
+                first div
+            </div>
+            <div>
+                second div
+            </div>
+            <div>
+                third div
+            </div>
+        </section>
+        <footer>
+            <p><br>hello</p>
+        </footer>
     </body>
 </html>
