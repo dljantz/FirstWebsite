@@ -1,0 +1,83 @@
+header {
+    background: red;
+    padding: 10px;
+    margin: 0px;
+}
+section {
+    background: green;
+    padding: 2px;
+    display:flex;
+    /* this is a css comment */
+}
+footer {
+    background:purple;
+    padding: 2px;
+}
+body {
+    margin: 0px;
+    padding: 3px;
+    background:black;
+    font-family: helvetica Neue, Helvetica, Arial;
+    color: white;
+}
+h1 {
+    color: black;
+}
+h2 {
+    color: rgb(4, 95, 94);
+    opacity: 0.5;
+}
+div {
+    display:inline-block;
+    width: 100%;
+    background-color: blue;
+    margin: 1px
+}
+.upper-section div {
+    background: pink;
+}
+/* using classes below and above.*/
+section.lower-section {
+    display: flex; /* need to research more on how flex / flexbox works...
+    generally speaking, it causes the stuff inside this element to stretch to fit */
+
+    flex-direction: column;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li {
+    display: inline-block;
+    margin-right: 10px;
+}
+/* psuedo-class used below */
+li:first-child {
+    background: gold;
+}
+li:hover {
+    background-color: aquamarine;
+}
+p {
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration:underline;
+}
+/* can't get active pseudoclass to work for some reason */
+a:active {
+    text-decoration:solid;
+}
+
+/*
+some possible website color palettes:
+https://coolors.co/031d44-04395e-70a288-dab785-d5896f
+https://coolors.co/26547c-ef476f-ffd166-06d6a0-fffcf9
+https://coolors.co/231f20-bb4430-7ebdc2-f3dfa2-efe6dd
+https://coolors.co/000000-7f95d1-ff82a9-ffc0be-ffebe7
+https://coolors.co/adbca5-e8b9ab-e09891-cb769e-8c5f66
+*/
